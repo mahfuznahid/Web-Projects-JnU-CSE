@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header><h1>Survey Form</h1></header>
+    <main>
+      <form action="#">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label>Gender:</label><br />
+        <label>
+          <input type="radio" name="gender" value="male" />
+          Male </label
+        ><br />
+
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Female </label
+        ><br />
+
+        <label>
+          <input type="radio" name="gender" value="other" />
+          Other </label
+        ><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="age">Age:</label><br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="1"
+          max="120"
+        /><br /><br />
+
+        <label for="institution">Institution:</label><br />
+        <input
+          type="text"
+          id="institution"
+          name="institution"
+          required
+        /><br /><br />
+
+        <label for="batch">Batch:</label><br />
+        <select name="batch" id="batch">
+          <option value="20">20</option>
+          <option value="19">19</option>
+          <option value="18">18</option>
+          <option value="17">17</option>
+          <option value="16">16</option>
+          <option value="15">15</option></select
+        ><br /><br />
+
+        <label for="dept">Department:</label><br />
+        <input type="text" id="dept" name="dept" required /><br /><br />
+
+        <label>Skills:</label><br />
+        <label>
+          <input type="checkbox" name="skills" value="html" />
+          HTML </label
+        ><br />
+
+        <label>
+          <input type="checkbox" name="skills" value="css" />
+          CSS </label
+        ><br />
+
+        <label>
+          <input type="checkbox" name="skills" value="javascript" />
+          JavaScript </label
+        ><br /><br />
+
+        <label for="feedback">Feedback:</label><br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
